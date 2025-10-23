@@ -21,26 +21,26 @@ The dataset used is the **Water Potability Dataset** from Kaggle:  [Kaggle Water
 ## 🛠 Installation Steps
 
 1. Clone the repository:
-  
+
    git clone
    
    cd
    
 2. (Optional) Create a virtual environment:
 
-python -m venv myvenv
+    python -m venv myvenv
 
-myvenv\Scripts\activate   # Windows
+    myvenv\Scripts\activate   # Windows
 
-source myvenv/bin/activate # macOS/Linux
+    source myvenv/bin/activate # macOS/Linux
 
 3. Install dependencies:
 
-pip install -r requirements.txt
+    pip install -r requirements.txt
 
 4. Run the Streamlit app:
 
-streamlit run app.py
+    streamlit run app.py
 
 ## 📝 Steps Performed
 

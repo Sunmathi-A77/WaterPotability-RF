@@ -12,22 +12,26 @@ The solution is deployed as a **Streamlit web application**, allowing users to i
 
 ## 📂 Dataset
 
-The dataset used is the **Water Potability Dataset** from Kaggle:  
-[Kaggle Water Potability Dataset](https://www.kaggle.com/adityakadiwal/water-potability)  
+The dataset used is the **Water Potability Dataset** from Kaggle:  [Kaggle Water Potability Dataset](https://www.kaggle.com/adityakadiwal/water-potability)  
 
-- Features include: `ph`, `Hardness`, `Solids`, `Chloramines`, `Sulfate`, `Conductivity`, `Organic_carbon`, `Trihalomethanes`, `Turbidity`.  
+- Features include: `ph`, `Hardness`, `Solids`, `Chloramines`, `Sulfate`, `Conductivity`, `Organic_carbon`, `Trihalomethanes`, `Turbidity`.
+
 - Target: `Potability` (1 = Potable, 0 = Not Potable)
 
 ## 🛠 Installation Steps
 
 1. Clone the repository:
+  
    git clone
+   
    cd
    
 2. (Optional) Create a virtual environment:
 
 python -m venv myvenv
+
 myvenv\Scripts\activate   # Windows
+
 source myvenv/bin/activate # macOS/Linux
 
 3. Install dependencies:
